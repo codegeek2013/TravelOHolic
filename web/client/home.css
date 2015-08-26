@@ -1,0 +1,62 @@
+body{
+            margin: 6px;
+      }
+        
+        #container{
+            width: 100%;
+            height: 600px;
+        }
+                
+        #banner{
+            top: 0px;
+            width: 100%;
+            height: 15%;
+            background-color: white;
+            color: white;
+        }
+        
+        #menu{
+            width: 100%;
+            height: 6%;
+            margin-top: 4px;
+            background-color: #ffffff;
+            margin-bottom: 3px;
+            margin-top: 3px;
+        }
+        
+        #pbody{
+            width: 100%;
+            height: 80%;
+            background-color: white;
+            
+        }
+        
+        #leftpart{
+            width:80%;
+            height: 100%;
+            float: left;
+            background-color: #ffffff;
+        }
+        img{
+            
+            width: 100%;
+            height: 100%;
+        }
+        a{
+            margin-left: 30px;
+            font-size: 20px;
+            font-family: fantasy;
+            color: #163C6A;
+            padding: 3px 3px 3px 3px;
+            font-style: initial;
+        }
+        a:hover{
+            background-color: #0078ae;
+            color: #ffffff;
+        }
+        #rightpart{
+            width:20%;
+            height: 100%;
+            float: left;
+            background-color: #ffffff;
+        }

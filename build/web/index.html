@@ -1,0 +1,79 @@
+
+
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>LOGIN</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <style type="text/css">
+            a{
+                padding: 0px;
+                margin-left: 0px;
+            }
+            a:hover{
+                background-color: #ffffff;
+            }
+            .sub{
+                width: 100px;
+                height: 40px;
+        }
+        .sub img{
+                width: 110%;
+                height: auto;
+        }
+        </style>
+    <script type="text/javascript">
+       
+       function check()
+       {
+        var uname = document.fna.uname.value;
+        var pass = document.fna.pass.value;
+        
+        if(uname==="" || pass==="")
+        {
+            alert('Blank username or password');
+            return false;
+        }
+        else
+            return true;
+        
+        }
+    </script>
+    
+    </head>
+    
+    
+    <body>
+      <div id="container">  
+        <div id="banner">
+            <img src="title.jpg" />
+        </div>
+        <br/>
+        <div id="pbody">
+           
+        <div id="leftpart">
+          <iframe src="a3de2087d90989c6a71b4600d112104148c8cffdc1dd/a3de2087d90989c6a71b4600d112104148c8cffdc1dd.html" width="787" height="500" frameborder="0" scrolling="no" allowTransparency="true"></iframe>
+       </div> 
+            
+         
+            <div id="rightpart"> 
+            <center>
+        <form name="fna" action="login" method="POST" onsubmit="return check()">
+            Username <br/> <input type="text" name="uname" value="" /><br/>
+            Password <br/> <input type="password" name="pass" value="" /><br /><br />
+            <input type="image" class="sub" src="login.png" alt="Submit" />
+        </form>
+                <br />
+                
+                <a href="register.jsp" ><img class="sub" src="register.png" alt="Register Here"></a>
+                <br/>
+                <a href="Admin/login.jsp">Admin Login</a>
+        </center>
+            
+            </div>    
+            
+         </div>     
+    </div>      
+    </body>
+</html>

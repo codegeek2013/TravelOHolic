@@ -1,0 +1,61 @@
+    body{
+            margin: 6px;
+        }
+        
+        #container{
+            width: 100%;
+            height: 600px;
+        }
+                
+        #banner{
+            top: 0px;
+            width: 100%;
+            height: 10%;
+            background-color: green;
+            color: white;
+        }
+        
+        #menu{
+            width: 100%;
+            height: 6%;
+            margin-top: 4px;
+            background-color: #ffffff;
+            margin-bottom: 3px;
+            margin-top: 3px;
+        }
+        
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        #pbody{
+            width: 100%;
+            height: 80%;
+            background-color: aqua;
+        }
+        
+        #leftpart{
+            width:80%;
+            height: 100%;
+            float: left;
+            background-color: #ffffff;
+        }
+        
+        #rightpart{
+            width:20%;
+            height: 100%;
+            float: left;
+            background-color: #fff;
+        }
+        .ab{
+            margin-left: 30px;
+            font-size: 20px;
+            font-family: fantasy;
+            color: #163C6A;
+            padding: 3px 3px 3px 3px;
+            font-style: initial;
+        }
+        .ab:hover{
+            background-color: #0078ae;
+            color: #ffffff;
+        }
